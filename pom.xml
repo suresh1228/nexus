@@ -29,13 +29,13 @@
   <distributionManagement>
     <repository>
         <id>test</id>
-        
+       <name>contextrelease</name>
         <url>http://34.218.237.207:7070/nexus-latest/content/repositories/releases/</url>
     </repository>
      <snapshotRepository>
         <id>test</id>
-        
-        <url>http://34.218.237.207:7070/nexus-latest/content/repositories/snapshots/</url>
+       <name>context snapshot</name>
+       <url>http://34.218.237.207:7070/nexus-latest/content/repositories/snapshots/</url>
     </snapshotRepository>
      </distributionManagement>  
 </project>
